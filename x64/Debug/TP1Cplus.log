@@ -1,0 +1,5 @@
+﻿  TP1Cplus.cpp
+c:\users\moslemimen\desktop\aec 2019\aec programme\etape 3\c++\code\tp1cplus\tp1cplus.cpp(8): warning C4326: le type de retour de 'main' doit être 'int' au lieu de 'void'
+c:\users\moslemimen\desktop\aec 2019\aec programme\etape 3\c++\code\tp1cplus\tp1cplus.cpp(9): warning C4101: 'm' : variable locale non référencée
+c:\users\moslemimen\desktop\aec 2019\aec programme\etape 3\c++\code\tp1cplus\tp1cplus.cpp(9): warning C4101: 't' : variable locale non référencée
+  TP1Cplus.vcxproj -> C:\Users\moslemimen\Desktop\AEC 2019\AEC programme\etape 3\C++\code\TP1Cplus\x64\Debug\TP1Cplus.exe
