@@ -4,7 +4,7 @@
 #include <conio.h>
 #include <stdio.h>
 
-	int calculerPgcd(int numerateur,int denominateur) {
+	int calculerPgcd(int numerateur, int denominateur) {
 		//cette fonction calcule le PGCD de deux valeurs.
 		int temp;
 		if (numerateur > denominateur){
@@ -51,7 +51,9 @@
 	int* saisirFractions(int* nbrFractions) {
 		//vette fonction demande aux personnes utilisatrices la quantité de fractions à analyser afind de les saisir
 		int numerateur, denominateur, k = 1;
-		std::cout << "Entrez le nombre de fraction a analyser:\t" << std::endl;
+		std::cout << "=============================================\t" << std::endl;
+		std::cout << "   Entrez le nombre de fraction a analyser:\t" << std::endl;
+		std::cout << "=============================================\t" << std::endl;
 		std::cin >> *nbrFractions;
 		int *ptrFractions = new int[*nbrFractions * 2];
 		for (int i = 0; i < *nbrFractions * 2; i = i + 2) {
@@ -97,5 +99,5 @@
 	//calculerPgcdBinaire(a, b)=calculerPgcdBinaire(b, a), le premier param est le plus grand dans cette implimentation
 	//int pc = calculerPgcdBinaire(30, 20);
 	//std::cout << "Le PGCD est " << pc << std::endl;
-	getch();
+	//getch();
 }
